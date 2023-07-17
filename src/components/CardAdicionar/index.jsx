@@ -20,7 +20,7 @@ function CardAdicionar(props){
         <div>
             <input type="text"
              value={textoTarefa}
-             onChange={(evento) => setTextoTarefa(evento.target,value)}
+             onChange={(evento) => setTextoTarefa(evento.target.value)}
              placeholder="Inserir tarefa"
             />
             <button onClick={() => handleAdicionarTarefa()}>Adicionar</button>
