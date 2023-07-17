@@ -5,6 +5,8 @@ texto - string
 finalizado - booleano
 Em seguida adicione a tarefa no array de lista de tarefas.
 */
+/*No App.jsx crie uma função para remover a tarefa. 
+Essa função deve receber como parâmetro a tarefa a ser removida e deve ser passada como prop para o componente de ListItem que chamará essa função.*/
 
 import { useState } from 'react'
 import './App.css'
