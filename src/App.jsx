@@ -11,7 +11,7 @@ Essa função deve receber como parâmetro a tarefa a ser removida e deve ser pa
 import { useState } from 'react'
 import './App.css'
 import CardAdicionar from './components/CardAdicionar'
-import 
+import ListItem from './components/ListItem'
 
 function App() {
   const [listaTarefas, setListaTarefas] = useState([])
