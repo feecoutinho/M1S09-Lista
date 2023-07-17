@@ -13,7 +13,7 @@ function ListItem(props){
         <div className="container">
             <input type="checkbox" checked={finalizado} />
             <h3 className={finalizado && 'marcar-finalizado'}>{props.textoTarefa}</h3>
-
+            <button>Finalizar</button>
 
         </div>
     )
