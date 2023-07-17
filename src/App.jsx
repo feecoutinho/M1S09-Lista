@@ -37,7 +37,7 @@ function App() {
     <>
       <CardAdicionar adicionarTarefa={adicionarTarefa}/>
       <div>{listaTarefas.map(tarefa => (
-        <ListItem key={tarefa.id} removerTarefa={removerTarefa} textoTarefa={tarefa.textoTarefa} finalizado={tarefa.finalizado}/>
+        <ListItem key={tarefa.id} id={tarefa.id} removerTarefa={removerTarefa} textoTarefa={tarefa.textoTarefa} finalizado={tarefa.finalizado}/>
       ))}</div>
     </>
   )
